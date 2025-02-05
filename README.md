@@ -6,17 +6,15 @@ Dieses Repository enthält die **Docker Compose** Konfiguration zum lokalen Self
 - **FHIR Service:** Simuliert FHIR-Ressourcen (Patient, Appointment, Practitioner) zur Integration mit KIS-artigen Daten.
 
 PatientPoint richtet sich an Patienten in den Vamed-Reha-Zentren, die vor Ort Informationen zu Terminen und Speiseplänen abrufen können – insbesondere über einen RFID-basierten Anmeldeprozess.
+
 ## Projekt Zusammenfassung
 
 PatientPoint bietet eine modulare, containerisierte Lösung zur Bereitstellung eines Patienten-Kiosk-Systems in den Vamed-Reha-Zentren. Das System umfasst ein modernes Angular-Frontend sowie zwei spezialisierte Backend-Services für Kernfunktionalitäten und FHIR-Simulation. Dieses Repository ermöglicht es Entwicklern, das komplette System via Docker Compose lokal oder in der Cloud zu deployen und zu testen.
+
 ## Voraussetzungen
 
 - **Docker & Docker Compose:**  
     Stelle sicher, dass Docker und Docker Compose auf deinem Entwicklungssystem installiert sind.
-    
-- **Umgebungsvariablen:**  
-    Lege ggf. in einer `.env`-Datei oder direkt im Compose-File alle nötigen Umgebungsvariablen fest, z. B. für Datenbankzugang, Service-Ports oder spezifische Konfigurationen der Backend-Services.
-    
 
 ## Lokaler Start
 
