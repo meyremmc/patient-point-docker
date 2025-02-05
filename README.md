@@ -37,6 +37,9 @@ PatientPoint bietet eine modulare, containerisierte Lösung zur Bereitstellung e
     - **FHIR Service API:** [http://localhost:8081](http://localhost:8081)
 
 - ## Architekturübersicht
+
+![Image](https://github.com/user-attachments/assets/41c449cb-a9ea-4868-adc5-378a9e4604b5)
+
 - **Frontend (Angular):**  
     Entwickelt als Single-Page-Application (SPA) und im Kiosk-Modus betrieben, sodass die Anwendung hardwareunabhängig ist.  
     _Technologien:_ Angular, TypeScript, SCSS
