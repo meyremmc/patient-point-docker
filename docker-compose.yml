@@ -16,5 +16,5 @@ services:
   fhir:
     image: ghcr.io/meyremmc/patient-point-kis:latest
     ports:
-      - "8081:8080"
+      - "8081:8081"
     restart: always

@@ -26,7 +26,7 @@ PatientPoint bietet eine modulare, containerisierte Lösung zur Bereitstellung e
     
 2. **Container starten:**
     ```bash
-    docker-compose up -d
+    docker-compose up
     ```
     
 3. **Zugriff:**
